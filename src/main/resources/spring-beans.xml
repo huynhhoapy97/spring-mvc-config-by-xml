@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+            http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="brand" class="com.huynhhoapy97.models.Brand">
+        <property name="id" value="001"/>
+        <property name="name" value="Labrada"/>
+    </bean>
+
+    <bean id="product" class="com.huynhhoapy97.models.Product">
+        <property name="id" value="13"/>
+        <property name="name" value="Lean Body"/>
+        <property name="price" value="96000.0"/>
+    </bean>
+
+    <bean id="category" class="com.huynhhoapy97.models.Category">
+        <property name="id" value="5"/>
+        <property name="name" value="Energy"/>
+    </bean>
+</beans>
